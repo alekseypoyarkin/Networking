@@ -19,3 +19,58 @@
   font-family: 'Font Awesome 5 Free', 'fa-regular-400';
   font-weight: 400;
 }
+
+.loading {
+  text-align: center;
+  margin: auto;
+  font-size: 30%;
+}
+
+.loading-container {
+  align-items: center;
+}
+
+.album {
+  height: 10%;
+  background-color: dimgrey;
+  margin: 5%;
+  padding: 5%
+}
+
+.album-album {
+  font-size: 15%;
+}
+
+.album-artist {
+  font-size: 10%;
+}
+
+.album-playcount {
+  font-size: 20%;
+  margin-top: 20%;
+}
+
+.nickname {
+  font-size: 50%;
+  text-align: center;
+}
+
+.playcount {
+  font-size: 30%;
+  text-align: center;
+}
+
+.avatar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: auto;
+}
+
+.recenttracks-title {
+  font-size: 20%;
+}
+
+.recenttracks {
+  margin-top: 10%;
+}
