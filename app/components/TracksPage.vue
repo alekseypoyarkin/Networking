@@ -17,6 +17,14 @@
                   row="0"
                   rowSpan="2"
                 /> -->
+              <Image
+                :src="trackdata[index - 1]['image'][3]['#text']"
+                stretch="aspectFit"
+                height="50"
+                col="0"
+                row="0"
+                rowSpan="2"
+              />
               <label
                 :text="trackdata[index - 1]['name']"
                 col="1"

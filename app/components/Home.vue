@@ -22,13 +22,14 @@
         <template v-if="recentdata.length">
           <template v-for="index in 5">
             <GridLayout columns="*,5*" rows="auto,auto" class="album">
-              <!-- <Image
-                :src="recentdata['image'][0]['#text']"
-                stretch="none"
+                            <Image
+                :src="recentdata[index - 1]['image'][3]['#text']"
+                stretch="aspectFit"
+                height="30"
                 col="0"
                 row="0"
                 rowSpan="2"
-              /> -->
+              />
               <label
                 :text="
                   recentdata[index - 1]['artist']['#text'] +
